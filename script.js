@@ -47,13 +47,13 @@ const lookup = {
           }
         }
       }
-     console.log(decodedArr.join(''));
+     //console.log(decodedArr.join(''));
     return decodedArr; //return decodedArr
   }
   
   // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
   
-  console.log(rot13("V YBIR QBPGBE FGENATR, QB LBH?"));
+  console.log(rot13("V YBIR QBPGBE FGENATR, QB LBH?").join(''));
   
   // Do not change this line
   window.rot13 = rot13;
